@@ -102,12 +102,8 @@ function Footer() {
   const openHour = 12;
   const closeHour = 22;
   let isOpen = hour >= openHour && hour <= closeHour;
-  // isOpen = false;
-  let isClosingSoon = hour >= 20 && hour < 22;
-  // isClosingSoon = true;
 
-  //   if (hour >= openHour && hour <= closeHour) alert("We're currently open");
-  //   else alert("We're closed");
+  let isClosingSoon = hour >= 20 && hour < 22;
 
   return (
     <footer className="footer">
